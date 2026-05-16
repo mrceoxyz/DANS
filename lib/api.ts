@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const API_BASE_URL = 'https://tailor-shop-api-1.onrender.com';
-const API_BASE_URL = 'http://127.0.0.1:8000/';
+const API_BASE_URL = 'https://dans-backend.onrender.com';
+// const API_BASE_URL = 'http://127.0.0.1:8000/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
